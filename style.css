@@ -1,3 +1,41 @@
 body {
+  background-color: beige
+}
+table, th, td {
+  border: solid orange; 
+  border-collapse: collapse;
+}
 
+nav {
+  list-style-type: none;
+  background-color: #333;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+
+li a {
+  float: left;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+
+li a:hover {
+  background-color: antiquewhite;
+  color: orange;
+}
+
+td, th {
+  border: 5px solid #D3D3D3;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #D3D3D3;
 }
