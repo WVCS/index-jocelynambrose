@@ -1,0 +1,48 @@
+body {
+  background-color: lightblue
+}
+font { font-family: "Lucida Console"}
+
+div.sticky {
+  position: sticky;
+  top: 0;
+  background-color: lightpink;
+  border: 3px solid gold;
+  text-align: center;
+  z-index: 5;
+}
+nav {
+  list-style-type: none;
+  background-color: #333;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0;
+  }
+
+li a {
+  float: left;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+
+li a:hover {
+  background-color: antiquewhite;
+  color: orange;
+}
+img{width:285px}
+
+td, th {
+  border: 5px solid #D3D3D3;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #D3D3D3;
+}
+img{width:285px}
