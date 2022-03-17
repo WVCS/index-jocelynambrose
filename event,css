@@ -1,0 +1,29 @@
+nav {
+  color:purple;
+  font-size: 55px;
+  text-align:center
+}
+nav {
+  list-style-type: none;
+  text-align:center;
+  position: fixed;
+  background-color: #D3D3E8;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+li {
+  display: inline;
+  padding: 30px;
+  float: center;
+}
+
+h1{ 
+color: green;
+font-size: 10vw;
+}
+
+logo
+{
+  width: 20px;
+}
