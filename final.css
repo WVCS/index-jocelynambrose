@@ -1,0 +1,73 @@
+<h1>West <span>Beach</span>View</h1>
+<div id="menu-icon">☰</div>
+<nav class="menu">
+	<span id="close">X</span>
+	<ul>
+		<li>Location
+			<ul class="sub-menu">
+				<li>13500 Wolverine Way</li>
+			</ul>
+		</li>
+		<li> About Us
+			<ul class="sub-menu grid-2">
+				<li> Owner
+					<ul>
+						<li> Rachel Neumann</li>
+					</ul>
+				</li>
+				<li> Supervisor
+					<ul>
+						<li>Tina Ziegler</li>
+						<li></li>
+					</ul>
+				</li>
+				<li> Lodging Manager
+					<ul>
+						<li>Mr. Parker</li>
+					</ul>
+				</li>
+				<li> Surf Coaches
+					<ul>
+						<li>Mr. Glover</li>
+						<li>Mr. Heard</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+</nav>
+<section class="article">
+
+	<img src="https://cdn.shopify.com/s/files/1/0203/7640/files/surfsupbrosdownali-12_1024x1024.jpg?v=1641232982" alt="Beach view.">
+	<!-- photo by Lefteris kallergis for Unsplash. Full-size image at: https://unsplash.com/photos/_TLKIVSW6Do -->
+	</nav>
+  <br>
+  <center>
+  <h1> Pricing Packages </h1>
+    <table>
+      <tr> 
+        <th> Nights </th>
+        <th> Cost </th>
+        <th> Surf Lessons </th>
+      </tr>
+      <tr>
+        <td> 3 DAYS/2 NIGHTS </td>
+        <td> 1,500$ </td>
+        <td> 3 LESSONS/250$ </td>
+      </tr>
+      <tr>
+        <td> 5 DAYS/4 NIGHTS </td>
+        <td> 2,500$ </td>
+        <td> 6 LESSONS/480$ </td>
+      </tr>
+      <tr>
+        <td> 7 DAYS/6 NIGHTS </td>
+        <td> 3,000$ </td>
+        <td> 8 LESSONS/51$ </td>
+      </tr>
+    </table>	<img src="https://img.taste.com.au/lUd0r8vr/taste/2016/11/cold-seafood-platter-90608-2.jpeg" alt="seafood. ">
+	<!-- photo by Jay Gajjar for Unsplash. Full-size image at: https://unsplash.com/photos/vsYCZVef28E -->
+	<p> ''Best. Sand. Ever. You won't regret staying on this beach!'' -Pete Davidson</p>
+	<img src="https://149361101.v2.pressablecdn.com/wp-content/uploads/2019/11/Where-to-Stay-in-San-Diego-La-Jolla-Southern-California-United-States-of-America-1600x533.jpg" alt="surfing. ">
+	<!-- photo by Melissa Walker Horn for Unsplash. Full size image at: https://unsplash.com/photos/NkwNp3ho-Qw -->
+	<p> Join our mailing list! WESTVIEWHIGHSCHOOOL@POWAYUSD.COM</p>
+</section>
