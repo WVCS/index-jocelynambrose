@@ -303,7 +303,8 @@ ul {
   margin: auto;
 }
 
-/* Hide the images by default */
+<script src="team.js"></script>
+	/* Hide the images by default */
 .mySlides {
   display: none;
 }
