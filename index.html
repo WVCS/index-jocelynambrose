@@ -1,25 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-   <nav>
-    <li><a href="index.html"> Home </a></li>
-    <li><a href="noun.html"> Noun Page </a></li>
-    <li><a href="convince.html"> Convince Page </a></li>
-     <li><a href="foodbev.html"> Food Page </a></li>
-      <li><a href="event/event.html"> Event Page </a></li>
-      <li><a href="final.html"> Final page </a></li>
-      <li><a href="team.html"> Team page </a></li>
-     <li><a href="car.html"> Car page </a></li>
-  </nav>
-  
+<html>
+  <body onload="menuInit();">
+	<nav id="navbar">
+		<ul id="main-menu">
+			<li><a href="index.html" target="_blank"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="noun.html" target="_blank"><i class="fa fa-coffee"></i>Noun Page</a></li>
+			<li id="dropdown-item"><a href="convince.html"><i class="fa fa-list-alt"></i>Convince Page</a></li>
+			<li><a href="foodbev.html" target="_blank"><i class="fa fa fa-apple"></i>Food Page</a></li>
+			<li><a href="event/event.html" target="_blank"><i class="fa fa-quote-left"></i>Event Page</a></li>
+      <li><a href="final.html" target="_blank"><i class="fa fa-check"></i>Final Page</a></li>
+      <li><a href="team.html" target="_blank"><i class="fa fa-users"></i>Team Page</a></li>
+      <li><a href="car.html" target="_blank"><i class="fa fa-car"></i>Car Page</a></li>
+		</ul><!-- main-menu -->
+	</nav><!-- navbar -->
+</nav>
+ 
   <center>
-  <img src= "jocelyn ambrose.png" >
+  <img src="">
   </center>
- </body>
-   
+</body>
+</html>
+<style>
+  /* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+
+/* Main Menu */
+
+ul#main-menu {
+	font-family: 'Lato', sans-serif;
+	font-family: 13px;
+	font-weight: 300;
+	list-style: none;
+	position: absolute;
+	cursor: pointer;
+}
+
+ul#main-menu > ul {
+	list-style: none;
+	opacity: 0;
+}
+
+ul#main-menu li {
+	background: #006bb6;
+	padding: 15px 50px 15px 10px;
+	border-bottom: 1px solid #fff;
+}
+
+ul#main-menu li:hover {
+	background: #9eccb3;
+}
+
+ul#main-menu li:first-child {
+	border-radius: 0 5px 0 0;
+}
+
+ul#main-menu li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+ul#main-menu i {
+	padding-right: 15px;
+	padding-left: 5px;
+}
+
+/* Submenu */
+
+#submenu {
+	color: #fff;
+	position: absolute;
+	width: 120px;
+	left: 202px;
+	margin-top: -50px;
+}
+
+ul#submenu > li {
+	padding: 10px;
+}
+
+ul#main-menu ul#submenu.show-submenu {
+	opacity: 1;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+ul#main-menu ul#submenu.hide-submenu {
+	cursor: pointer;
+	display: none;
+}
+</style>
+<script>
+  function menuInit() {
+	var dropdown = document.getElementById("dropdown-item");
+	var submenu = document.getElementById("submenu");
+
+	dropdown.onmouseover = popOutMenu;
+	dropdown.onmouseout = hideDropdown;
+
+	submenu.onmouseover = popOutMenu;
+	submenu.onmouseout = hideDropdown;
+}
+
+function popOutMenu () {
+	submenu.className = "show-submenu";
+}
+
+function hideDropdown () {
+	submenu.className = "hide-submenu";
+}
+</script>
