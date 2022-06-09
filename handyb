@@ -1,0 +1,56 @@
+<html>
+<body>
+  <nav>
+    <br></br>
+  <div class="logo">
+   HANDY BELVILLE
+   
+      </button>
+    <li><a href=""> Cart </a></li> 
+    <li><a href=""> Shop </a></li>
+    <li><a href="index.html"> Home </a></li>
+
+  </nav>
+  <br></br>
+<br>
+      <body>
+        <br></br>
+<br></br>
+     <center>
+       <img src="https://icon-library.com/images/laptop-vector-icon-png/laptop-vector-icon-png-16.jpg">
+      
+       <button type="button" name="button" onclick="alert('TEXT SHOWN: the coupon code is HANDYB')">
+  CLICK FOR COUPON CODE </button>
+  <input type="text" id="lname" name="lname"> 
+    <input type="submit" value="Search Coupons"> 
+   </input>
+
+        <br>  <br>  <br>
+ <center>
+
+       <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/J94ApW-BW5hrZxPq_jmrh5xtXhNRee7tNB2vDiXopwI/embed"></iframe>
+       </html>
+       
+       <style>
+       nav {
+  list-style-type: none;
+  position: fixed;
+  background-color: lightblue;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+li {
+  display: inline;
+  padding: 15px;
+  float: right;
+}
+li:hover {
+  background-color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+       </style>
