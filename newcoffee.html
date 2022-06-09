@@ -51,7 +51,7 @@
   </table>  
         </html>
       <style>
-        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap");
+   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap");
 *,
 *::after,
 *::before {
@@ -106,7 +106,7 @@ h1 span {
 	transition: ease-in 300ms;
 }
 .menu > ul > li:hover {
-	background-color: white;
+	background-color: #3f3f3f;
 }
 .menu ul li:hover .sub-menu {
 	opacity: 1;
@@ -115,7 +115,7 @@ h1 span {
 }
 .sub-menu {
 	position: absolute;
-	background: white;
+	background: #3f3f3f;
 	width: 100%;
 	padding: 1rem 2rem;
 	pointer-events: none;
@@ -130,36 +130,6 @@ h1 span {
 	flex-wrap: wrap;
 	gap: 1rem;
 }
-.sub-menu > li,
-.sub-menu > li > ul > li {
-	cursor: pointer;
-	position: relative;
-}
-.sub-menu > li {
-	padding: 0.5rem 0;
-}
-.sub-menu > li > ul > li {
-	padding: 0.2rem 0;
-	margin: 0 0.5rem;
-}
-.sub-menu > li::after,
-.sub-menu > li > ul > li::after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 5px;
-	background: orange;
-	width: 50px;
-	transform: scalex(0);
-	transition: ease-in 100ms;
-}
-.sub-menu > li:hover::after,
-.sub-menu > li > ul > li:hover::after {
-	transform: scalex(1);
-}
-
 .grid-2 {
 	display: grid;
 	grid-template:
@@ -169,18 +139,6 @@ h1 span {
 	justify-items: start;
 	align-items: start;
 	align-content: center;
-}
-.grid-2 > li {
-	position: static !important;
-	color: orange;
-	font-weight: 700;
-}
-.grid-2 > li > ul > li {
-	color: white;
-	font-weight: 400;
-}
-.grid-2 > li::after {
-	position: static;
 }
 .article {
 	display: flex;
@@ -210,41 +168,7 @@ img {
 		background: orange;
 		color: white;
 	}
-	.menu {
-		position: fixed;
-		transform: translatex(100%);
-		transition: ease-in-out 300ms;
-		background: orange;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		padding: 1rem;
-		height: 100%;
-		overflow-y: auto;
-	}
-	.menu > ul {
-		display: flex;
-		justify-content: strech;
-		align-items: strecht;
-		flex-direction: column;
-		gap: 1rem;
-		margin-top: 2rem;
-	}
-
-	.sub-menu {
-		position: static;
-		opacity: 1;
-		transform: translatex(0);
-		display: flex;
-		flex-direction: column;
-	}
-
-	.sub-menu > ul > li {
-		padding: 0.5rem;
-		border-radius: 0.5rem;
-		background: orange;
-	}
+	
 	.grid-2 {
 		display: flex;
 		flex-direction: column;
@@ -266,28 +190,9 @@ img {
 		cursor: pointer;
 		transition: ease-in-out 300ms;
 	}
-	.menu.active {
-		transform: translatex(0);
-	}
-
-	#menu-icon {
-		display: flex;
-		justify-content: center;
-		cursor: pointer;
-		position: fixed;
-		top: 0;
-		right: 0;
-		z-index: 99;
-		background: #3f3f3f;
-		color: white;
-		padding: 0.5rem 1rem;
-		border-radius: 0 0 0 0.5rem;
-	}
-	#menu-icon.active {
-		display: none;
-	}
+	
 	.menu > ul > li {
-		background-color: #3f3f3f;
+		background-color: white;
 		border-radius: 0.3rem;
 	}
 }
@@ -302,5 +207,5 @@ nav {
   top: 0;
   width: 100%;
   left: 0;
-}
+}  
       </style>
