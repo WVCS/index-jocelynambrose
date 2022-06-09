@@ -1,0 +1,95 @@
+<html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final.css">
+<h1> <span>Coffee</span></h1>
+<div id="menu-icon">☰</div>
+<nav class="menu">
+	<span id="close">X</span>
+	<ul>
+   
+     <nav>
+    <li><a href="index.html"> Home </a></li>
+  </nav>
+    <body>
+      <center>
+      <img src="https://img.myloview.com/posters/coffee-and-eatery-company-retro-modern-logo-design-inspiration-400-219521126.jpg">
+         <h1> PLACES & DRINKS </h1> 
+  <table align="center" id="classes">
+    <tr>
+      <th> Places </th>
+      <th> Top Drink </th>
+      <th> Grade </th>
+    </tr>
+    
+   <tr> 
+     <td> Starbucks </td>
+     <td> Iced Brown Sugar Oat Milk Shaken Espresso</td>
+     <td> A+ </td>
+    </tr>
+    
+    <tr> 
+     <td> Peet's Coffee </td>
+     <td> The Black Tie </td>
+     <td> A- </td>
+    </tr>
+    
+    <tr> 
+     <td> Dunkin Donuts </td>
+     <td> Caramel mocha </td>
+     <td> C </td>
+    </tr>
+    
+    <tr> 
+     <td> Philz </td>
+     <td> Mint Mojito </td>
+     <td> B </td>
+    </tr> 
+  </table>  
+</html>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap");
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	overflow-x: hidden;
+}
+
+h1 {
+	width: 100%;
+	padding: 1rem 0;
+	display: flex;
+	justify-content: right;
+	gap: 1rem;
+	font-size: calc(1rem + 2vw);
+	text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5),
+		2px 2px 2px rgba(0, 0, 0, 0.5), 3px 3px 2px rgba(255, 255, 255, 0.7),
+		4px 4px 2px rgba(0, 0, 0, 0.7);
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+h1 span {
+	text-transform: uppercase;
+	font-size: calc(4rem + 2vw);
+	font-weight: 700;
+	background: url("https://media1.giphy.com/media/HVhofxmUXMyGs/giphy.gif");
+	color: transparent;
+	text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.2);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	background-size: cover;
+}
+</style>
